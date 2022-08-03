@@ -1,0 +1,4 @@
+% clippy
+
+# Allow needless return
+cargo clippy -- -A clippy::needless_return
