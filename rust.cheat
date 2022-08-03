@@ -6,4 +6,4 @@ cargo clippy -- -A clippy::needless_return
 % clippy
 
 # Allow linter parameters
-cargo clippy -- -A clippy::<linter rule>
+cargo clippy -- -A clippy::<linter_rule>
