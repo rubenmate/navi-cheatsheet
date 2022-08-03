@@ -2,3 +2,8 @@
 
 # Allow needless return
 cargo clippy -- -A clippy::needless_return
+
+% clippy
+
+# Allow linter parameters
+cargo clippy -- -A clippy::<linter rule>
